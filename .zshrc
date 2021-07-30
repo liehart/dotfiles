@@ -19,3 +19,9 @@ prompt pure
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+export PATH=/usr/local/gradle/bin:$PATH
+
+export M2_HOME=/opt/maven
+export PATH=${M2_HOME}/bin:${PATH}
+
